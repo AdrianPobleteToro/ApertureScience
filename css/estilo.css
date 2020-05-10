@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: azure;
+}
+section,footer{
+    background-color: black;
+    opacity: 0.4;
+}
+body{
+    background-image: url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/684410/dd0a2c4aac686d96074d45b9a263fed28b2a1ebd.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+footer{
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    height:17%;
+    width:100%;
+}
+#seccion{
+    left: 10px;
+    float: left;
+    width: 89%;
+}
+#aside-der{
+    position: absolute;
+    right: 0px;
+    width: 10%;
+    height: auto;
+}
+.menu{
+    float: inside;
+    text-align: center;
+}
